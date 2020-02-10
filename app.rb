@@ -24,7 +24,9 @@ end
 
 
 post "/restaurants" do
-  binding.pry # params => {"name"=>"Sikha", "address"=>"Canggu"}
+
+  # Use binding.pry if you want to check your params on the terminal
+  # params => {"name"=>"Sikha", "address"=>"Canggu"}
 
  new_restaurant = Restaurant.new
 
